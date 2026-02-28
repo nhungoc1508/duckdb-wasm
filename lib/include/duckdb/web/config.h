@@ -112,7 +112,7 @@ struct WebDBConfig {
     };
 
     /// Whether to allow unsigned extensions
-    bool allow_unsigned_extensions = false;
+    bool allow_unsigned_extensions = true;
 
     /// Whether to use alternate Arrow conversion that preserves full range and precision of data.
     bool arrow_lossless_conversion = false;

@@ -60,7 +60,7 @@ WebDBConfig WebDBConfig::ReadFrom(std::string_view args_json) {
                                       .s3_secret_access_key = "",
                                       .s3_session_token = "",
                                   },
-                              .allow_unsigned_extensions = false,
+                              .allow_unsigned_extensions = true,
                               .arrow_lossless_conversion = false,
                               .custom_user_agent = ""};
     rapidjson::Document doc;
